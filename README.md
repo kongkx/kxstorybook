@@ -193,7 +193,9 @@ Link: [babel-plugin-react-docgen](https://github.com/storybooks/babel-plugin-rea
   }
   ```
 
-2. add babel-loader in custom webpack config
+2. add `babel-loader` in custom webpack config.
+
+**注意** 需要加入自定义的babel-loader， 不知为何 create-react-app 中的配置不能使得 `react-docgen` 生效
 
   ```javascript
   // webpack.config.js
