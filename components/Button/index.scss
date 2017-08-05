@@ -1,0 +1,31 @@
+$color-primary: #912982;
+$color-success: #009233;
+$color-warning: #ee8800;
+
+.button {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  &_primary {
+    color: white;
+    background-color: $color-primary;
+    border-color: darken($color-primary, 5%);
+  }
+
+  &_success {
+    color: white;
+    background-color: $color-success;
+    border-color: darken($color-success, 5%);
+  }
+
+  &_warning {
+    color: white;
+    background-color: $color-warning;
+    border-color: darken($color-warning, 5%);
+  }
+
+  &.is-disabled {
+    opacity: 0.7;
+  }
+}

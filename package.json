@@ -1,0 +1,29 @@
+{
+  "name": "storybook-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "node node_modules/@storybook/react/dist/server/index.js -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/addon-actions": "^3.2.0",
+    "@storybook/addon-info": "^3.2.0",
+    "@storybook/addon-knobs": "^3.2.0",
+    "@storybook/addon-options": "^3.2.3",
+    "@storybook/react": "^3.2.3",
+    "babel-plugin-react-docgen": "^1.6.0",
+    "classnames": "^2.2.5",
+    "node-sass": "^4.5.3",
+    "prop-types": "^15.5.10",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "storybook-readme": "^3.0.5"
+  }
+}
