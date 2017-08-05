@@ -5,8 +5,8 @@ import { setOptions } from '@storybook/addon-options';
 import { setDefaults } from '@storybook/addon-info';
 
 setOptions({
-  name: 'Custom StoryBook',
-  url: '',
+  name: 'KX StoryBook Example',
+  url: 'https://github.com/kongkx/kxstorybook',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
